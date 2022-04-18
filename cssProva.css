@@ -1,0 +1,170 @@
+@charset "UTF-8";
+
+/*__________________________*/
+/* cabeçalho*/
+header{
+    background-color: aquamarine;
+    padding: 12px;
+    text-align: center;
+    top: 0;
+    font-size: 12pt;
+}
+
+
+/*munu horizontal*/
+nav ul{
+    
+    display: block;
+    position: relative; /*a posição o menu ficará fixa no top*/ 
+    padding: 0;
+    margin-top:0 ;
+    overflow: hidden; /* esconde os texto que passam do limite especificado*/
+    top: 0; /*aqui coloca o texto 0px do topo da pagina*/     
+    overflow:hidden;
+}
+nav#principal li{
+   
+    width: 16.666%; /*foi feito uma rearanjo 100/4 = 25%*/
+    list-style-type: none; /* tira a parte da lista ordenada*/
+    background-color: black; /* cor do fundo*/
+    float: left;
+    font-size: 12pt; /* tamanho da letra*/
+    text-align: center;
+}
+nav#principal a{
+    height: 25px;
+    display: block; /*transorma em blocos o display do link*/
+    color: white; /*cor da letra dos links*/
+    text-decoration: none;
+    padding: 14px 14px; /* altura do bloco*/
+  
+}
+nav#principal a:hover{
+    color: green;
+    background-color: violet;
+    font-size: 13px;
+}
+/*_______________________________*/
+
+
+
+
+
+/* trabalhando formatação do lado esquerdo*/
+nav#esquerda{
+    
+    width: 15%;
+    height: 1550px;  
+    float: left;
+    font-size: 10pt;
+    background-color: rgba(0, 0, 0, 0.092);
+    overflow: auto;
+    
+}
+nav#esquerda a{
+    display: block;
+    color: black;
+    padding: 19px;
+    text-align: center;
+    border-radius: 6px;
+}
+nav#esquerda a:hover{
+    color: white;
+    font-size: 14pt;
+    background-color: magenta;
+}
+
+/*_________________________*/
+/*texto principal*/
+section{
+    width: 70%;
+    height: 1550px;
+    background-color: rgba(88, 88, 114, 0.067);
+    float: left;
+    overflow: auto;
+    text-align: justify;
+    
+    
+}
+img{
+    
+    border-radius: 5%;
+}
+
+/*texto do lado direito*/
+aside ul{ 
+    position: relative; /*a posição o menu ficará fixa no top*/ 
+    padding: 0;
+    margin-top:0 ;
+    overflow: hidden; /* esconde os texto que passam do limite especificado*/
+    top: 0; /*aqui coloca o texto 0px do topo da pagina*/     
+}
+
+
+aside{
+    width: 15%;
+    height: 1550px;  
+    float: right;
+    font-size: 10pt;
+    background-color: rgba(0, 0, 0, 0.092);
+    overflow: auto;
+    
+}
+aside ul{
+    list-style-type: none;
+
+}
+
+aside a{
+    display: block;
+    color: black;
+    padding: 19px;
+    text-align: center;
+    border-radius: 12px;
+}
+
+aside a:hover{
+    color: white;
+    font-size: 14pt;
+    background-color: rgb(0, 255, 115);
+}
+/*   fim   */
+
+
+
+
+
+
+
+footer{
+    width: 100%;
+    height: 30px;
+    clear: both;
+    background-color: rgba(196, 255, 238, 0.386);
+    padding: 8px;
+    text-align: center;
+    
+}
+h1{
+    font-size: 20pt;
+    text-align: center;
+}
+
+h2{
+    font-size: 14pt;
+}
+
+p{
+    font-size: 12pt;
+    text-indent: 50px;
+}
+h3{
+    background-color: aquamarine;
+    height: 40px;
+    text-align: center;
+}
+h4{
+    background-color: rgba(17, 58, 44, 0.36);
+    height: 40px;
+    text-align: center;
+}
